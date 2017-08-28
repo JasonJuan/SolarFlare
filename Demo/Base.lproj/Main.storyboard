@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="scrollable_content" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Soy-Zv-TUz">
+                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Solar flare" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow1-5f-AMx">
+                                        <rect key="frame" x="10" y="10" width="4180" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3h-dX-Tnd">
+                                        <rect key="frame" x="10" y="383" width="4180" height="183"/>
+                                        <mutableString key="text">A solar flare is a sudden flash of brightness observed near the Sun's surface. It involves a very broad spectrum of emissions, an energy release of typically 1 × 1020 joules of energy for a well-observed event. A major event can emit up to 1 × 1025 joules[1] (the latter is roughly the equivalent of 1 billion megatons of TNT, or over 400 times more energy than released from the impact of Comet Shoemaker–Levy 9 with Jupiter). Flares are often, but not always, accompanied by a coronal mass ejection.[2] The flare ejects clouds of electrons, ions, and atoms through the corona of the sun into space. These clouds typically reach Earth a day or two after the event.[3] The term is also used to refer to similar phenomena in other stars, where the term stellar flare applies.
+
+Solar flares affect all layers of the solar atmosphere (photosphere, chromosphere, and corona), when the plasma medium is heated to tens of millions kelvins, while the cosmic-ray-like electrons, protons, and heavier ions are accelerated to near the speed of light. They produce radiation across the electromagnetic spectrum at all wavelengths, from radio waves to gamma rays, although most of the energy is spread over frequencies outside the visual range and for this reason the majority of the flares are not visible to the naked eye and must be observed with special instruments. Flares occur in active regions around sunspots, where intense magnetic fields penetrate the photosphere to link the corona to the solar interior. Flares are powered by the sudden (timescales of minutes to tens of minutes) release of magnetic energy stored in the corona. The same energy releases may produce coronal mass ejections (CME), although the relation between CMEs and flares is still not well established.
+
+X-rays and UV radiation emitted by solar flares can affect Earth's ionosphere and disrupt long-range radio communications. Direct radio emission at decimetric wavelengths may disturb the operation of radars and other devices that use those frequencies.
+
+Solar flares were first observed on the Sun by Richard Christopher Carrington and independently by Richard Hodgson in 1859[4] as localized visible brightenings of small areas within a sunspot group. Stellar flares can be inferred by looking at the lightcurves produced from the telescope or satellite data of variety of other stars.
+
+The frequency of occurrence of solar flares varies, from several per day when the Sun is particularly "active" to less than one every week when the Sun is "quiet", following the 11-year cycle (the solar cycle). Large flares are less frequent than smaller ones.
+
+On July 23, 2012, a massive, and potentially damaging, solar superstorm (solar flare, coronal mass ejection, solar EMP) barely missed Earth, according to NASA.[5][6] According to NASA, there may be as much as a 12% chance of a similar event occurring between 2012 and 2022,[5] although because this particular figure was based on an extreme extrapolation of the calculated frequency of future storms, the actual probability of this is quite uncertain.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DSC07711_Long" translatesAutoresizingMaskIntoConstraints="NO" id="16z-Wd-sB0">
+                                        <rect key="frame" x="0.0" y="53.5" width="320" height="1391"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="275" id="3Ep-3p-eiB"/>
+                                            <constraint firstAttribute="width" secondItem="16z-Wd-sB0" secondAttribute="height" multiplier="23:100" id="Aot-bo-zSV"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUZ-hD-Pjd">
+                                        <rect key="frame" x="10" y="192" width="4180" height="183"/>
+                                        <mutableString key="text">閃焰是在太陽的盤面或邊緣觀測到的突發的閃光現象，它會釋放出高達6 × 1025焦耳的巨大能量（大約是太陽每秒鐘釋放總能量的六倍，或相當於160,000,000,000百萬噸TNT，超過舒梅克－李維九號彗星撞木星能量的25,000倍）。它們通常，但並非總是，伴隨著發生日冕大量拋射的事件[1]。閃焰會從太陽日冕拋射出電子、離子、和原子的雲進入太空。通常，在事件發生後的一兩天，這些雲就可能會到達地球[2]。這個名詞也適用在發生類似現象的恆星，但通常會使用「恆星閃焰」來稱呼。
+閃焰會影響到太陽所有的大氣層（光球、色球和日冕）。當電漿物質被加熱至數千萬K的溫度時，電子、質子和更重的離子都會被加速至接近光速。它們產生電磁頻譜中所有波長的電磁輻射，從無線電波到伽瑪射線，然而絕大部分的能量都在視覺範圍之外，因此絕大碩的閃焰都是肉眼看不見的，必須要用特別的儀器觀測不同的頻率。閃焰發生在圍繞著太陽黑子的活動區，強烈的磁場從那兒穿透光球聯接日冕和太陽內部的磁場。 閃焰會突然（時間的尺度在幾分鐘至幾十分鐘）釋放儲藏在日冕中的磁場能量；日冕大量拋射（CME）也可以釋放出相等的能量，但是這兩者之間的關係尚不明確。
+閃焰發射的X射線和紫外線輻射會影響地球的電離層，擾亂遠距離的無線電通訊。在分米波長的電波輻射會直接干擾雷達和使用這些波長的儀器和設備的操作。
+對太陽閃焰的首度觀測是理查·卡靈頓和理查·霍奇森在1859年獨立完成的[3]，在黑子群當中看見一個小範圍的明亮區域。觀察望遠鏡或衛星觀測到的恆星光度變化曲線，可以推斷其他恆星是否產生恆星閃焰。
+太陽閃焰發的頻率隨著平均11年的活動週期，從太陽位於活躍期的一天數個，到寧靜期的一星期不到一個，有很大的變化（參見太陽週期）。大的閃焰出現的頻率遠低於小的閃焰。
+根據NASA的觀測，在2012年7月23日，一個有著巨大和潛在破壞力的太陽超級風暴（閃焰、日冕大量拋射、和太陽電磁脈衝）與地球擦身而過[4][5]。估計在2012年至2022年之間，有12%的機率會發生類似的事件[4]</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="m3h-dX-Tnd" firstAttribute="top" secondItem="VUZ-hD-Pjd" secondAttribute="bottom" constant="18" id="GcN-bf-KY5"/>
+                                    <constraint firstItem="16z-Wd-sB0" firstAttribute="top" secondItem="Ow1-5f-AMx" secondAttribute="bottom" constant="23" id="JQ7-js-OdH"/>
+                                    <constraint firstItem="m3h-dX-Tnd" firstAttribute="leading" secondItem="Soy-Zv-TUz" secondAttribute="leading" constant="10" id="Kkl-pT-l3j"/>
+                                    <constraint firstItem="Ow1-5f-AMx" firstAttribute="leading" secondItem="Soy-Zv-TUz" secondAttribute="leading" constant="10" id="LrJ-M7-Wds"/>
+                                    <constraint firstItem="VUZ-hD-Pjd" firstAttribute="top" secondItem="16z-Wd-sB0" secondAttribute="bottom" constant="29" id="O1A-Gb-5H1"/>
+                                    <constraint firstAttribute="bottom" secondItem="m3h-dX-Tnd" secondAttribute="bottom" constant="10" id="PPh-cW-tdI"/>
+                                    <constraint firstAttribute="trailing" secondItem="m3h-dX-Tnd" secondAttribute="trailing" constant="10" id="QA3-99-6Cu"/>
+                                    <constraint firstItem="Ow1-5f-AMx" firstAttribute="top" secondItem="Soy-Zv-TUz" secondAttribute="top" constant="10" id="SbS-DZ-xOt"/>
+                                    <constraint firstItem="16z-Wd-sB0" firstAttribute="leading" secondItem="Soy-Zv-TUz" secondAttribute="leading" id="WE2-RF-cjN"/>
+                                    <constraint firstItem="VUZ-hD-Pjd" firstAttribute="leading" secondItem="Soy-Zv-TUz" secondAttribute="leading" constant="10" id="cOs-PO-Csi"/>
+                                    <constraint firstAttribute="trailing" secondItem="VUZ-hD-Pjd" secondAttribute="trailing" constant="10" id="kyb-4B-4Nv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ow1-5f-AMx" secondAttribute="trailing" constant="10" id="tBc-Df-Yy3"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="16z-Wd-sB0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="2hg-A0-vSq"/>
+                            <constraint firstAttribute="trailing" secondItem="Soy-Zv-TUz" secondAttribute="trailing" id="YeQ-6S-nvC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Soy-Zv-TUz" secondAttribute="bottom" id="bsf-kZ-7oX"/>
+                            <constraint firstItem="Soy-Zv-TUz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rzZ-gr-RC4"/>
+                            <constraint firstItem="Soy-Zv-TUz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="szr-NJ-ynU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="Soy-Zv-TUz" id="weM-8I-bkC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DSC07711_Long" width="753" height="3339"/>
+    </resources>
+</document>
